@@ -1,18 +1,10 @@
 defmodule ListLength do
-  @moduledoc """
-  Documentation for `ListLength`.
-  """
+  def call(list), do: list_length(list, 0)
 
-  @doc """
-  Hello world.
+  defp list_length([], accumulator), do: accumulator
 
-  ## Examples
-
-      iex> ListLength.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  defp list_length([_head | tail], accumulator) do
+    accumulator = accumulator + 1
+    list_length(tail, accumulator)
   end
 end
