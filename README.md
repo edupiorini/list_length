@@ -1,6 +1,14 @@
 # ListLength
 
-**TODO: Add description**
+This is a Elixir a module containing a recursive counter generating the length of the given list created to complete a challenge proposed by Rocketseat.
+
+This module may be used for reviewing or studying functional programming.
+
+[Contact me!](https://linkedin.com/in/eduardopiorini)
+
+
+
+
 
 ## Installation
 
